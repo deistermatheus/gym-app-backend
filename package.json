@@ -1,0 +1,37 @@
+{
+  "name": "gym-app-backend",
+  "version": "1.0.0",
+  "description": "Gympass style application to practice SOLID concepts in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deistermatheus/gym-app-backend.git"
+  },
+  "keywords": [],
+  "author": "Matheus Deister",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deistermatheus/gym-app-backend/issues"
+  },
+  "homepage": "https://github.com/deistermatheus/gym-app-backend#readme",
+  "devDependencies": {
+    "@types/node": "20.2.1",
+    "@typescript-eslint/eslint-plugin": "5.59.6",
+    "@typescript-eslint/parser": "5.59.6",
+    "eslint": "8.41.0",
+    "tsup": "6.7.0",
+    "tsx": "3.12.7",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "fastify": "4.17.0",
+    "zod": "3.21.4"
+  }
+}
