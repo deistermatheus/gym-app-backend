@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/deistermatheus/gym-app-backend#readme",
   "devDependencies": {
+    "@types/bcryptjs": "2.4.2",
     "@types/node": "20.2.1",
     "@typescript-eslint/eslint-plugin": "5.59.6",
     "@typescript-eslint/parser": "5.59.6",
@@ -32,6 +33,7 @@
   },
   "dependencies": {
     "@prisma/client": "4.14.1",
+    "bcryptjs": "2.4.3",
     "dotenv": "16.0.3",
     "fastify": "4.17.0",
     "zod": "3.21.4"
