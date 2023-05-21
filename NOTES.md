@@ -2,3 +2,4 @@
 2. Parse safely with Zod to avoid leaking process.ENV everywhere
 3. Use path aliasing in tsconfig to avoid long relative directory chains (../../../)
 4. Use .gitattributes to set EOL config for projec only
+5. UUID insted of auto-increment may stop scanning sequentially (check app requirements)
